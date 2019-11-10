@@ -15,6 +15,15 @@
 		2C6D516422D8AF360058A875 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C6D516222D8AF360058A875 /* Main.storyboard */; };
 		2C6D516622D8AF390058A875 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C6D516522D8AF390058A875 /* Assets.xcassets */; };
 		2C6D516922D8AF390058A875 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C6D516722D8AF390058A875 /* LaunchScreen.storyboard */; };
+		2C6D517322D8BC4C0058A875 /* Skater.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6D517222D8BC4C0058A875 /* Skater.swift */; };
+		2CB8B8BB22F1E9500017A00D /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CB8B8BA22F1E9500017A00D /* CoreData.framework */; };
+		2CF2F2F022DF6D2F00FEAB87 /* MenuLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF2F2EF22DF6D2F00FEAB87 /* MenuLayer.swift */; };
+		2CF2F2F322DF814700FEAB87 /* gem.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2CF2F2F122DF814700FEAB87 /* gem.wav */; };
+		2CF2F2F622DF832B00FEAB87 /* sparks.sks in Resources */ = {isa = PBXBuildFile; fileRef = 2CF2F2F522DF832B00FEAB87 /* sparks.sks */; };
+		2CFAD7FD22DFE65A00B3DCF0 /* death.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2CFAD7FA22DFE65A00B3DCF0 /* death.wav */; };
+		2CFAD80222DFEC2500B3DCF0 /* down.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2CFAD80122DFEC2400B3DCF0 /* down.wav */; };
+		2CFAD80422DFEC2E00B3DCF0 /* jump.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2CFAD80322DFEC2E00B3DCF0 /* jump.wav */; };
+		2CFAD80622DFF05C00B3DCF0 /* skateboard.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2CFAD80522DFF05C00B3DCF0 /* skateboard.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +37,15 @@
 		2C6D516522D8AF390058A875 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2C6D516822D8AF390058A875 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2C6D516A22D8AF390058A875 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C6D517222D8BC4C0058A875 /* Skater.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Skater.swift; sourceTree = "<group>"; };
+		2CB8B8BA22F1E9500017A00D /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		2CF2F2EF22DF6D2F00FEAB87 /* MenuLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuLayer.swift; sourceTree = "<group>"; wrapsLines = 0; };
+		2CF2F2F122DF814700FEAB87 /* gem.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = gem.wav; sourceTree = "<group>"; };
+		2CF2F2F522DF832B00FEAB87 /* sparks.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = sparks.sks; sourceTree = "<group>"; };
+		2CFAD7FA22DFE65A00B3DCF0 /* death.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = death.wav; sourceTree = "<group>"; };
+		2CFAD80122DFEC2400B3DCF0 /* down.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = down.wav; sourceTree = "<group>"; };
+		2CFAD80322DFEC2E00B3DCF0 /* jump.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = jump.wav; sourceTree = "<group>"; };
+		2CFAD80522DFF05C00B3DCF0 /* skateboard.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = skateboard.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CB8B8BB22F1E9500017A00D /* CoreData.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -45,6 +64,7 @@
 			isa = PBXGroup;
 			children = (
 				2C6D515722D8AF360058A875 /* SchoolhouseSkateboarder */,
+				2CB8B8B922F1E9500017A00D /* Frameworks */,
 				2C6D515622D8AF360058A875 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -66,11 +86,27 @@
 				2C6D515E22D8AF360058A875 /* GameScene.swift */,
 				2C6D516022D8AF360058A875 /* GameViewController.swift */,
 				2C6D516222D8AF360058A875 /* Main.storyboard */,
+				2CF2F2F122DF814700FEAB87 /* gem.wav */,
 				2C6D516522D8AF390058A875 /* Assets.xcassets */,
+				2CFAD80522DFF05C00B3DCF0 /* skateboard.wav */,
+				2CFAD7FA22DFE65A00B3DCF0 /* death.wav */,
+				2CFAD80122DFEC2400B3DCF0 /* down.wav */,
+				2CFAD80322DFEC2E00B3DCF0 /* jump.wav */,
 				2C6D516722D8AF390058A875 /* LaunchScreen.storyboard */,
 				2C6D516A22D8AF390058A875 /* Info.plist */,
+				2C6D517222D8BC4C0058A875 /* Skater.swift */,
+				2CF2F2EF22DF6D2F00FEAB87 /* MenuLayer.swift */,
+				2CF2F2F522DF832B00FEAB87 /* sparks.sks */,
 			);
 			path = SchoolhouseSkateboarder;
+			sourceTree = "<group>";
+		};
+		2CB8B8B922F1E9500017A00D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2CB8B8BA22F1E9500017A00D /* CoreData.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -131,11 +167,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CFAD80422DFEC2E00B3DCF0 /* jump.wav in Resources */,
+				2CF2F2F322DF814700FEAB87 /* gem.wav in Resources */,
 				2C6D516422D8AF360058A875 /* Main.storyboard in Resources */,
 				2C6D515B22D8AF360058A875 /* GameScene.sks in Resources */,
 				2C6D516622D8AF390058A875 /* Assets.xcassets in Resources */,
 				2C6D516922D8AF390058A875 /* LaunchScreen.storyboard in Resources */,
 				2C6D515D22D8AF360058A875 /* Actions.sks in Resources */,
+				2CFAD80222DFEC2500B3DCF0 /* down.wav in Resources */,
+				2CFAD7FD22DFE65A00B3DCF0 /* death.wav in Resources */,
+				2CFAD80622DFF05C00B3DCF0 /* skateboard.wav in Resources */,
+				2CF2F2F622DF832B00FEAB87 /* sparks.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,6 +189,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				2C6D515F22D8AF360058A875 /* GameScene.swift in Sources */,
+				2C6D517322D8BC4C0058A875 /* Skater.swift in Sources */,
+				2CF2F2F022DF6D2F00FEAB87 /* MenuLayer.swift in Sources */,
 				2C6D516122D8AF360058A875 /* GameViewController.swift in Sources */,
 				2C6D515922D8AF360058A875 /* AppDelegate.swift in Sources */,
 			);
